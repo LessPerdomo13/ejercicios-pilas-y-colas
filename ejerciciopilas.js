@@ -8,7 +8,6 @@ function Persona() {
   this.isEmpty = function(){
     return elementos.length == 0;
   }
-
 }
 var nombre = new Persona();
 var nombre = [];
@@ -31,3 +30,4 @@ var apellido = [];
 for(var i = 0; i < nombre.length + 4; i++ ){
   nombres.push(nombre.pop()+apellido.pop());
 }
+  console.log(nombres);
